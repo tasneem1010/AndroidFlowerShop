@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    add animations to button clicks-->
+    <style name="ToolBar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@drawable/rounded_toolbar</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+    </style>
+
+    <style name="TitleText" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:background">@color/secondary</item>
+    </style>
+
+    <style name="Card" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="CardButton">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:background">@color/background</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintLeft_toRightOf">@id/tvQuantity</item>
+        <item name="layout_constraintTop_toBottomOf">@id/tvName</item>
+    </style>
+
+    <style name="subtitleString" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+
+    <style name="LogoImage" parent="Widget.AppCompat.ImageButton">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">74dp</item>
+        <item name="android:contentDescription">@string/shop_logo</item>
+        <item name="android:src">@drawable/logo</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="ToolbarButton" parent="Widget.AppCompat.ImageButton">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="CartButton" parent="ToolbarButton">
+        <item name="android:layout_marginStart">3dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:contentDescription">@string/cart</item>
+        <item name="android:src">@drawable/cart</item>
+    </style>
+
+    <style name="SearchButton" parent="ToolbarButton">
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">3dp</item>
+        <item name="android:contentDescription">@string/search</item>
+        <item name="android:src">@drawable/search</item>
+    </style>
+
+    <style name="MainScrollView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+    <style name="MainLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="CategoryTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RecyclerViewHorizontal" parent="Widget.AppCompat.ListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:scrollbars">horizontal</item>
+    </style>
+</resources>

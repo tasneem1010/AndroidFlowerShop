@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#F3E4D8</color>">
+    <color name="primary">#FF7D7D</color>
+    <color name="secondary">#D9A29A</color>
+    <color name="tertiary">#7FD3D5</color>
+    <!--    text colors-->
+    <color name="text_primary">#FF7D7D</color>
+    <color name="text_secondary">#FDF7F3</color>
+    <!--      button color      -->
+    <color name="ripple_color">#FF7D7D</color>"
+
+
+</resources>

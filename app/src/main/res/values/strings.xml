@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Flower Shop</string>
+    <string name="cart">cart</string>
+    <string name="flower_image">flower image</string>
+    <string name="pots">Pots</string>
+    <string name="bouquets">Bouquets</string>
+    <string name="flowers">Flowers</string>
+    <string name="search">Open Search Page</string>
+    <string name="shop_logo">shop logo</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="all">All</string>
+    <string name="cart_title">Cart</string>
+    <string name="remove_from_cart">remove from cart</string>
+    <string name="check_out">Check Out</string>
+    <string name="total_price">Total Price:</string>
+    <string name="in_stock_only">In Stock Only</string>
+    <string name="price_range_slider">Price Range Slider</string>
+</resources>
